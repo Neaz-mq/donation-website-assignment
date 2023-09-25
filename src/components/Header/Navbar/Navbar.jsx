@@ -22,18 +22,18 @@ const Navbar = () => {
 
                     <li>
                         <NavLink
-                            to="/favorites"
+                            to="/donates"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
                             }
                         >
-                           Donation
+                           Donates
                         </NavLink>
                     </li>
 
                     <li>
                         <NavLink
-                            to="/login"
+                            to="/statistic"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
                             }

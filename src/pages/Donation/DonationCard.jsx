@@ -1,3 +1,4 @@
+import swal from "sweetalert";
 
 
 const DonationCard = ({ donation }) => {
@@ -13,7 +14,7 @@ const DonationCard = ({ donation }) => {
     if (!donationItems) {
       addDonationsArray.push(donation);
       localStorage.setItem('donations', JSON.stringify(addDonationsArray))
-
+      swal("Good job!", "Product add successful!", "success");
     }
     else {
 
@@ -22,7 +23,11 @@ const DonationCard = ({ donation }) => {
       if (!isExists) {
         addDonationsArray.push(...donationItems, donation);
         localStorage.setItem('favorites', JSON.stringify(addDonationsArray))
-
+        swal("Good job!", "Product add successful!", "success");
+       
+      }
+      else{
+        swal("Error!", "No duplicate!", "error");
       }
 
 
@@ -42,7 +47,7 @@ const DonationCard = ({ donation }) => {
    
    
     <div className="card-actions justify-start">
-      <button className="btn bg-[#FF444A] text-white">Donate ${price}</button>
+      <button onClick={handleAddToDonation} className="btn bg-[#FF444A] text-white">Donate ${price}</button>
     </div>
    
   </div>
@@ -50,6 +55,7 @@ const DonationCard = ({ donation }) => {
 </div>
 <p className="absolute py-96 text-2xl text-black font-semibold mr-72 ml-10">{category}</p>
 <p className="absolute py-96 mt-10 font-semibold text-left">{description}</p>
+
 </div>
   
 
