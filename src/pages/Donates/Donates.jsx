@@ -9,11 +9,11 @@ const Donates = () => {
     const [noFound, setNoFound] = useState(false)
 
     useEffect(()=> {
-        const donatesItems = JSON.parse(localStorage.getItem('donates'));
+        const donateItems = JSON.parse(localStorage.getItem('donates'));
       
       
-        if(donatesItems){
-            setDonates(donatesItems);
+        if(donateItems){
+            setDonates(donateItems);
             
             
 
