@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home/Home";
+import Donation from "../pages/Donation/Donation";
 
 
 const  myCreatedRoute = createBrowserRouter([
@@ -15,6 +16,12 @@ const  myCreatedRoute = createBrowserRouter([
                loader: () => fetch('./public/donations.json')
              
            },
+           {
+            path: '/donations/:id',
+            element: <Donation></Donation>,
+            loader: () => fetch('./public/donations.json')
+            
+        },
            
          
           

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const DonationsCard = ({donation}) => {
@@ -7,7 +8,7 @@ const DonationsCard = ({donation}) => {
 
     return (
         <div>
-  
+  <Link to={`/donations/${id}`}>   
 <div className="card shadow-xl" style={{buttonBackgroundColor:btn_bg}}>
   <figure><img src={image} alt="" /></figure>
   <div className="card-body">
@@ -19,6 +20,9 @@ const DonationsCard = ({donation}) => {
     
   </div>
 </div>
+
+</Link>
+        
         </div>
     );
 };
