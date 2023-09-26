@@ -1,9 +1,12 @@
+import StatisticsChart from "./StatisticsChart";
 
 
 const Statistics = () => {
+    
+      
     return (
         <div>
-            <h2>Statistics</h2>
+          <StatisticsChart></StatisticsChart>
         </div>
     );
 };

@@ -27,7 +27,7 @@ const Navbar = () => {
                                 isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
                             }
                         >
-                           Donates
+                           Donation
                         </NavLink>
                     </li>
 
