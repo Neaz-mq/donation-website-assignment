@@ -63,13 +63,13 @@ const Donates = () => {
                     <DonatesCard key={donation.id} donation={donation}></DonatesCard>
                     )) 
                     
-                    : donates.slice(0,2).map((donation) => (
+                    : donates.slice(0,4).map((donation) => (
                         <DonatesCard key={donation.id} donation={donation}></DonatesCard>
                     ))
               }
             </div>
   
-            {donates.length > 2 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto">
+            {donates.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto">
               {isShow ? "See less" : "See more"}
             </button>}
           </div>

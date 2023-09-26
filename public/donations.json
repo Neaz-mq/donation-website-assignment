@@ -9,7 +9,8 @@
     "text_color": "#0052FF",
     "btn_bg": "#0052FF",
     "description": "The word water comes from the Old English word",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#0052FF"
   },
   {
     
@@ -23,7 +24,8 @@
     "text_color": "#FF444A",
     "btn_bg": "#FF444A",
     "description": "Education is the transmission of knowledge",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#FF444A"
   },
   {
     
@@ -37,7 +39,8 @@
     "text_color": "#79C23F",
     "btn_bg": "#79C23F",
     "description": "Clothing are items used to cover the human body.",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#79C23F"
   },
   {
   
@@ -51,7 +54,8 @@
     "text_color": "#F87147",
     "btn_bg": "#F87147",
     "description": "Food is usually of plant, animal, or fungal origin",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#F87147"
   },
   
   {
@@ -66,7 +70,8 @@
     "text_color": "#F87147",
     "btn_bg": "#F87147",
     "description": "Food is usually of plant, animal, or fungal origin",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#F87147"
   },
   {
     "id": "6",
@@ -78,7 +83,8 @@
     "text_color": "#FF444A",
     "btn_bg": "#FF444A",
     "description": "Education is the transmission of knowledge",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#FF444A"
   },
   {
     "id": "7",
@@ -90,7 +96,8 @@
     "text_color": "#0052FF",
     "btn_bg": "#0052FF",
     "description": "The word water comes from the Old English word",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#0052FF"
   },
   {
     "id": "8",
@@ -102,7 +109,8 @@
     "text_color": "#79C23F",
     "btn_bg": "#79C23F",
     "description": "Clothing are items used to cover the human body.",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#79C23F"
   },
   
 
@@ -116,7 +124,8 @@
     "text_color": "#79C23F",
     "btn_bg": "#79C23F",
     "description": "Clothing are items used to cover the human body.",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#79C23F"
   },
   {
     "id": "10",
@@ -128,7 +137,8 @@
     "text_color": "#0052FF",
     "btn_bg": "#0052FF",
     "description": "The word water comes from the Old English word",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#0052FF"
   },
   {
     "id": "11",
@@ -140,7 +150,8 @@
     "text_color": "#FF444A",
     "btn_bg": "#FF444A",
     "description": "Education is the transmission of knowledge",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#FF444A"
   },
   {
     "id": "12",
@@ -152,7 +163,8 @@
     "text_color": "#F87147",
     "btn_bg": "#F87147",
     "description": "Food is usually of plant, animal, or fungal origin",
-    "price": 290.00
+    "price": 290.00,
+    "price_color": "#F87147"
   }
 ]
 

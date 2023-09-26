@@ -7,11 +7,11 @@ const DonationsCard = ({donation}) => {
 
 
     return (
-        <div>
+        <div style={{backgroundColor:card_bg}}>
   <Link to={`/donations/${id}`}>   
 <div className="card shadow-xl" style={{buttonBackgroundColor:btn_bg}}>
   <figure><img src={image} alt="" /></figure>
-  <div className="card-body">
+  <div className="card-body ">
   <div className="card-actions">
       <button className="btn  ml-6 lg:ml-0" style={{backgroundColor:card_bg, color: text_color}}>{category}</button>
     </div>
