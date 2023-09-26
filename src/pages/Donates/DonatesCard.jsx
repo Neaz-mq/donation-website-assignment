@@ -8,8 +8,8 @@ const DonatesCard = ({donation}) => {
 
 
     return (
-      <div >
-        <div className="flex justify-center items-center h-[50vh]" >
+      <div>
+        <div className="flex flex-col  mt-40 lg:mt-0 justify-center items-center h-[50vh] " >
                        <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md" style={{backgroundColor:card_bg}}>
   <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
     <img
