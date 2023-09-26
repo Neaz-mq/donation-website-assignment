@@ -69,8 +69,8 @@ const Donates = () => {
               }
             </div>
   
-            {donates.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto">
-              {isShow ? "See less" : "See more"}
+            {donates.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-500 p-3 rounded block mx-auto text-white font-semibold md:mt-24 mt-32 lg:mt-0">
+              {isShow ? "See less" : "See All"}
             </button>}
           </div>
         )}

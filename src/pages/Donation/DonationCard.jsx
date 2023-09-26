@@ -41,20 +41,29 @@ const DonationCard = ({ donation }) => {
 
 
   return (
-    <div className="flex justify-center py-7">
-    <div className="card w-96 bg-base-100 shadow-xl object-cover">
-    <figure><img src={image} alt="donate" /></figure>
-   
-      <div className="card-actions">
-        <button  onClick={handleAddToDonates} className="btn  text-white ml-8" style={{backgroundColor:text_color}}>Donate ${price}</button>
-      </div>
-      <div className="card-body">
-      <h2 className="card-title">{category}</h2>
-      <p>{description}</p>
-    </div>
-  </div>
-  
-  </div>
+    <div className="relative w-full lg:w-[600px] mx-auto">
+          {/* Image */}
+          <img
+            src={image}
+            className="w-[100%] object-contain rounded-lg"
+            
+          />
+
+          {/* Donate button */}
+          <div className="bg-[#0b0b0b80] h-28 md:h-24 lg:h-24 w-[100%] absolute bottom-0 p-10 bg-opacity-25">
+            <button
+            onClick={handleAddToDonates}
+              className="p-1 md:p-3 rounded text-xl font-semibold text-white mr-8 -mt-3 -ml-4"
+              style={{backgroundColor:text_color}}
+            >
+              Donate ${price}
+            </button>
+            <div className="card-body lg:-ml-16 mt-6 lg:mt-0 -ml-12">
+            <h2 className="card-title mr-12 ">{category}</h2>
+           <p>{description}</p>
+          </div>
+          </div>
+        </div>
    
   );
 };
