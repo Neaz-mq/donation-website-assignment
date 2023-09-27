@@ -3,23 +3,18 @@ import DonatesCard from './DonatesCard';
 
 const Donates = () => {
 
-
     const [isShow, setIsShow] = useState(false);
     const [donates, setDonates] = useState([]);
     const [noFound, setNoFound] = useState(false)
 
     useEffect(()=> {
-        const donateItems = JSON.parse(localStorage.getItem('donates'));
-      
+        const donateItems = JSON.parse(localStorage.getItem('donates')); 
       
         if(donateItems){
-            setDonates(donateItems);
-            
-            
-
-          }
+            setDonates(donateItems);       
+      }
           else{
-            
+           
             setNoFound('no data found');
           }
 
@@ -48,7 +43,7 @@ const Donates = () => {
                 onClick={handleRemove}
                 className="px-5 bg-green-200 block mx-auto"
               >
-                Deleted All donations
+                {/* Deleted All donations */}
               </button>
   
              

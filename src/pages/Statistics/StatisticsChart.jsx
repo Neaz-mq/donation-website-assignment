@@ -3,7 +3,7 @@ import { PieChart, Pie, Tooltip, Cell, ResponsiveContainer, Label } from 'rechar
 
 const StatisticsChart = () => {
   // Initial total donation and your donation values
-  const initialTotalDonation = 12; // Assuming the total donation is 12,000
+  const initialTotalDonation = 12; // Assuming the total donation is 12
   const [totalDonation, setTotalDonation] = useState(initialTotalDonation);
   const [yourDonation, setYourDonation] = useState(4); // Assuming you have donated 4,000
 

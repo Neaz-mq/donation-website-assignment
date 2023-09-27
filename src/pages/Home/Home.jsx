@@ -15,6 +15,6 @@ const Home = () => {
             <Donations donations= {donations}></Donations>
         </div>
     );
-};
+};  
 
 export default Home;
